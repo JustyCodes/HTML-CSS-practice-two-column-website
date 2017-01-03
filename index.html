@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html lange="en">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>The best way to win is by avoiding the fight</title>
-  <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet"> 
+	<meta charset="utf-8" />
+	<title>The best way to win is by avoiding the fight</title>
+	<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet"> 
 <style>
 body {
-  background: #FFD504;
-  background: -webkit-linear-gradient(#FFD504, #F5EA2D); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#FFD504, #F5EA2D); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#FFD504, #F5EA2D); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#FFD504, #F5EA2D); /* Standard syntax */
-  margin: 0;
-  padding: 0;
-  font-family: "Amaranth",sans;
+	background: #FFD504;
+	background: -webkit-linear-gradient(#FFD504, #F5EA2D);
+	background: -o-linear-gradient(#FFD504, #F5EA2D);
+	background: -moz-linear-gradient(#FFD504, #F5EA2D);
+	background: linear-gradient(#FFD504, #F5EA2D);
+	padding: 0;
+	font-family: "Amaranth",sans;
 }
 #wrapper {
   width: 960px;
   height: auto;
-  background: #DE7B07;
-  border-left: 5px solid #E87904;
-  border-right: 5px solid #E87904;
+  background: #F5D84D;
+  border-left: 5px solid #931604;
+  border-right: 5px solid #931604;
   overflow: auto;
   margin: 0 auto;
   padding: 0px;
 }
-#header {
+header {
   width: 100%;
   height: 200px;
   border-bottom: 3px solid #931604;
   background-image: url("https://c7.staticflickr.com/5/4150/4838069526_79be27b60d_b.jpg");
   background-position: left center;
 }
+footer {
+	width: 100%;
+	height: 100px;
+	border-top: 1px solid #931604;
+	text-align: center;
+	float: right;
+}
+footer a {
+	text-decoration: none;
+	color: #931604;
+}
 #logo {
-  float: left;
-  padding: 10px 20px;
+	float: left;
+	padding: 10px 20px;
 }
 #social {
-  float: right;
-  margin: 20xp 30px 0px 0px;
+	float: right;
+	margin: 20px 30px 0px 0px;
 }
 #social ul li {
   float: left;
@@ -54,17 +64,17 @@ body {
   width: 275px;
   height: 100%;
 }
-#menu {
+nav {
   float: left;
   height: auto;
   width: 200px;
 }
-#menu ul li {
+nav ul li {
   list-style: none;
   padding: 5px;
   text-align: center;
 }
-#menu ul li a {
+nav ul li a {
   background: #FFD504;
   color: #3B1202;
   text-decoration: none;
@@ -73,7 +83,7 @@ body {
   border: 2px solid #931604;
   border-radius: 5px;
 }
-#menu ul li a:hover {
+nav ul li a:hover {
   color: #fff;
   background: #DEC504;
 }
@@ -82,13 +92,14 @@ body {
   width: 655px;
   height: 100%;
   padding-left: 20px;
-  letter-spacing: 1;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
   color: #3B1202;
   border-left: 3px solid #931604;
   text-align: justify;
 }
 p {
-  text-indent: 50px;
+  text-indent: 30px;
 }
 #content img {
   width: 50%;
@@ -101,9 +112,18 @@ p {
   border-bottom: 1px solid #931604;
   text-align: center;
 }
+.back {
+	width: 20%;
+}
 .back a {
-  text-decoration: none;
-  color: #3B1202;
+	background: #FFD504;
+	text-decoration: none;
+	color: #3B1202;
+	padding: 5px;
+	display: block;
+	border: 2px solid #931604;
+	border-radius: 5px;
+	text-align: center;
 }
 .back a:hover {
   color: #fff;
@@ -113,57 +133,85 @@ p {
 </style>
 </head>
 <body>
-
-  <div id="wrapper">
-    <div id="header">
-	  <a name="top"></a>
-	  <div id="logo">
-	    <img src="https://s24.postimg.org/ka7s5xhv9/Logomakr_9_P54_Wx.png" width="200px" height="100px" alt="logo" title="krav maga training">
-	  </div> <!----End of logo--->
-	  <div id="social">
-	    <ul>
-		  <li><a href="http://www.facebook.com" target="_blank"><img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" alt="facebook" title="facebook"></a></li>
-		  <li><a href="http://www.twitter.com" target="_blank"><img src="http://www.freeiconspng.com/uploads/twitter-icon-12.png" alt="twitter" title="twitter"></a></li>
-		  <li><a href="http://www.youtube.com" target="_blank"><img src="http://www.seaicons.com/wp-content/uploads/2016/03/Web-YouTube-Metro-icon.png" alt="youtube" title="youtube"></a></li>
-		  
-		</ul>
-	  </div> <!---End of social---->
-	</div> <!---End of header------>
-	<div id="sidebar">
-	  <div id="menu">
-	    <ul>
-		  <li><h2><a href="#intro">Basic info</a></h2></li>
-		  <li><h2><a href="#whofor">Who is it for?</a></h2></li>
-		  <li><h2><a href="#howto">How to start?</a></h2></li>
-		  <li><h2><a href="#more">FAQ</a></h2></li>
-		</ul>
-	  </div> <!---end of menu--->
-	</div> <!---end of sidebar--->
-	<div id="content">
-	  <a name="intro"><h1>What is Krav Maga?</h1>
-	  <img src="https://c8.staticflickr.com/5/4109/4837456679_fb126c72dd_b.jpg" width="1024" height="683" alt="Policiais Treinam Krav Magá" title="Policiais Treinam Krav Magá">
-	  <p>Krav Maga is a self-defense system developed for the Israel Defense Forces (IDF) that consists of a wide combination of techniques sourced from aikido, judo, boxing and wrestling, along with realistic fight training. Krav Maga is known for its focus on real-world situations and its extremely efficient and brutal counter-attacks. It was derived from street-fighting skills developed by Hungarian-Israeli martial artist Imi Lichtenfeld, who made use of his training as a boxer and wrestler as a means of defending the Jewish quarter against fascist groups in Bratislava, Czechoslovakia in the mid-to-late 1930s. In the late 1940s, following his migration to Israel, he began to provide lessons on combat training to what was to become the IDF, subsequently going on to develop the system that became known as Krav Maga. It has since been refined for civilian, police and military applications.</p>
-	
-	  <p class="back"><a href="#top">Back to Top</a></p>
-	  <a name="whofor"><h1>Who can practice Krav Maga?</h1>
-	 <img src="https://c3.staticflickr.com/5/4083/4838068746_d6630da078_b.jpg" width="1024" height="683" alt="Policiais Treinam Krav Magá">
-	  <p>Krav Maga has a philosophy emphasizing threat neutralization, simultaneous defensive and offensive maneuvers and aggression. While it has been used mainly by the Israel Defense Forces' special units and reconnaissance brigades and recently by regular infantry brigades, it's well suited for anyone wishing to get some self-defense training.
-	  Krav Maga is taught and practiced with the David and Goliath scenario in mind, which emphasizes speed and well-placed infliction over size, strength, age, or fitness. This means that, barring medical issues which prevent you from over-exerting yourself, you too can practice Krav Maga.</p>
-	  <p class="back"><a href="#top">Back to Top</a></p>
-	  <a name="howto"><h1>How to get started?</h1>
-	  <p>You could search for any martial arts clubs/gyms in your area. There is a chance one of them is teaching Krav Maga. If you're a student, you could even receive credit for taking Krav Maga classes as a part of your PE classes (that's what I did). </p>
-	  <p>It's best to search for a club belonging to one of the international Krav Maga associations, as they usually hold higher standards, offer formalised progress assessment and make sure that all of their instructors are competent.</p>
-	   <p class="back"><a href="#top">Back to Top</a></p>
-	  <a name="more"><h1>Frequently Asked Questions</h1>
-	  <h4>Is it dangerous?</h4>
-	  <p>No.</p>
-	  <h4>Do I need any special equipment?</h4>
-	  <p>No. Although some mentors require teeth guards or boxing gloves for some of the lessons.</p>
-	  <h4>Is it hard to learn?</h4>
-	  <p>I'd say it's one of those things that are easy to learn, hard to master. You'll be able to do quite a lot after just a few lessons, but true mastery takes time and effort.</p>
-	   <p class="back"><a href="#top">Back to Top</a></p>
-	</div> <!---end of content---->
-  </div> <!---End of wrapper---->
+	<div id="wrapper">
+		<header>
+		<a name="top"></a>
+			<div id="logo">
+				<img src="https://s24.postimg.org/ka7s5xhv9/Logomakr_9_P54_Wx.png" width="200" height="100" alt="logo" title="krav maga training">
+			</div> <!--End of logo-->
+			<div id="social">
+				<ul>
+					<li>
+						<a href="http://www.facebook.com" target="_blank">
+							<img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" alt="facebook" title="facebook">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.twitter.com" target="_blank">
+							<img src="http://www.freeiconspng.com/uploads/twitter-icon-12.png" alt="twitter" title="twitter">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.youtube.com" target="_blank">
+							<img src="http://www.seaicons.com/wp-content/uploads/2016/03/Web-YouTube-Metro-icon.png" alt="youtube" title="youtube">
+						</a>
+					</li>
+				</ul>
+			</div> <!--End of social-->
+		</header> <!--End of header-->
+		<div id="sidebar">
+			<nav>
+				<ul>
+					<li><h2><a href="#intro">Basic info</a></h2></li>
+					<li><h2><a href="#whofor">Who is it for?</a></h2></li>
+					<li><h2><a href="#howto">How to start?</a></h2></li>
+					<li><h2><a href="#more">FAQ</a></h2></li>
+				</ul>
+			</nav> <!--end of menu-->
+		</div> <!--end of sidebar-->
+		<div id="content">
+			<a id="intro">
+				<h1>What is Krav Maga?</h1>
+			</a>
+			<img src="https://c8.staticflickr.com/5/4109/4837456679_fb126c72dd_b.jpg" width="1024" height="683" alt="Policiais Treinam Krav Magá" title="Policiais Treinam Krav Magá">
+			<p>Krav Maga is a self-defense system developed for the Israel Defense Forces (IDF) that consists of a wide combination of techniques sourced from aikido, judo, boxing and wrestling, along with realistic fight training. Krav Maga is known for its focus on real-world situations and its extremely efficient and brutal counter-attacks. It was derived from street-fighting skills developed by Hungarian-Israeli martial artist Imi Lichtenfeld, who made use of his training as a boxer and wrestler as a means of defending the Jewish quarter against fascist groups in Bratislava, Czechoslovakia in the mid-to-late 1930s. In the late 1940s, following his migration to Israel, he began to provide lessons on combat training to what was to become the IDF, subsequently going on to develop the system that became known as Krav Maga. It has since been refined for civilian, police and military applications.</p>
+			<div class="back">
+				<a href="#top">Back to Top</a>
+			</div> <!--end of intro-->
+			<a id="whofor">
+				<h1>Who can practice Krav Maga?</h1>
+			</a>
+			<img src="https://c3.staticflickr.com/5/4083/4838068746_d6630da078_b.jpg" width="1024" height="683" alt="Policiais Treinam Krav Magá">
+			<p>Krav Maga has a philosophy emphasizing threat neutralization, simultaneous defensive and offensive maneuvers and aggression. While it has been used mainly by the Israel Defense Forces' special units and reconnaissance brigades and recently by regular infantry brigades, it's well suited for anyone wishing to get some self-defense training. Krav Maga is taught and practiced with the David and Goliath scenario in mind, which emphasizes speed and well-placed infliction over size, strength, age, or fitness. This means that, barring medical issues which prevent you from over-exerting yourself, you too can practice Krav Maga.</p>
+			<div class="back">
+				<a href="#top">Back to Top</a>
+			</div> <!--end of who can practice-->
+			<a id="howto">
+				<h1>How to get started?</h1>
+			</a>
+			<p>You could search for any martial arts clubs/gyms in your area. There is a chance one of them is teaching Krav Maga. If you're a student, you could even receive credit for taking Krav Maga classes as a part of your PE classes (that's what I did). </p>
+			<p>It's best to search for a club belonging to one of the international Krav Maga associations, as they usually hold higher standards, offer formalised progress assessment and make sure that all of their instructors are competent.</p>
+			<div class="back">
+				<a href="#top">Back to Top</a>
+			</div>
+			<a id="more">
+				<h1>Frequently Asked Questions</h1>
+			</a>
+			<h4>Is it dangerous?</h4>
+			<p>No.</p>
+			<h4>Do I need any special equipment?</h4>
+			<p>No. Although some mentors require teeth guards or boxing gloves for some of the lessons.</p>
+			<h4>Is it hard to learn?</h4>
+			<p>I'd say it's one of those things that are easy to learn, hard to master. You'll be able to do quite a lot after just a few lessons, but true mastery takes time and effort.</p>
+			<div class="back">
+				<a href="#top">Back to Top</a>
+			</div>
+		</div> <!--end of content-->
+		<footer>
+			<h5>Justy 2017</h5>
+			<a href="mailto:giliaindzia@gmail.com">Contact me</a>
+		</footer>
+	</div> <!--End of wrapper-->
   
 
 </body>
